@@ -79,6 +79,8 @@
         params[@"attributes"] = @"deals";
     }
 
+    params[@"locale"] = @"ja_JP";
+
     return params;
 }
 
