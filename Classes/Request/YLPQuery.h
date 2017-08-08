@@ -62,6 +62,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (assign, nonatomic) BOOL dealsFilter;
 
+@property (copy, nonatomic, nullable) NSString *locale;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

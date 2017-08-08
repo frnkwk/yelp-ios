@@ -79,7 +79,7 @@
         params[@"attributes"] = @"deals";
     }
 
-    params[@"locale"] = @"ja_JP";
+    params[@"locale"] = self.locale;
 
     return params;
 }
